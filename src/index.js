@@ -4,4 +4,6 @@ require('reveal.js/css/theme/white.css');
 
 var Reveal = require('reveal.js');
 
-Reveal.initialize();
+Reveal.initialize({
+  history: true,
+});
