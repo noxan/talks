@@ -52,3 +52,12 @@ section.has-dark-background
   font-weight: $mainFontWeight
   text-shadow: $mainTextShadow
   -webkit-font-smoothing: antialiased
+
+  // List style
+  ul
+    list-style: none
+    & > li
+      text-indent: -30px
+      &:before
+        content: '-'
+        margin-right: 10px
