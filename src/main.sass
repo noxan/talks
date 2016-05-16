@@ -11,22 +11,24 @@
 
 
 // Include theme-specific fonts
-@import url(~reveal.js/lib/font/source-sans-pro/source-sans-pro.css)
+@import url(https://fonts.googleapis.com/css?family=Palanquin:300|Raleway:400)
 
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff
 
-$mainColor: #222
-$headingColor: #222
+$mainColor: #333
+$headingColor: #333
 
 $mainFontSize: 38px
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif
-$headingTextShadow: none
+$mainFont: 'Palanquin', Helvetica, sans-serif
+$mainTextShadow: 0 0 1px rgba(0, 0, 0, .1)
+$mainFontWeight: 300
+$headingFont: 'Raleway', Helvetica, sans-serif
+$headingTextShadow: $mainTextShadow
 $headingLetterSpacing: normal
-$headingTextTransform: uppercase
-$headingFontWeight: 600
+$headingTextTransform: none
+$headingFontWeight: 400
 $linkColor: #2a76dd
 $linkColorHover: lighten( $linkColor, 15% )
 $selectionBackgroundColor: lighten( $linkColor, 25% )
@@ -44,3 +46,9 @@ section.has-dark-background
 // Theme template ------------------------------
 @import '~reveal.js/css/theme/template/theme.scss'
 // ---------------------------------------------
+
+
+.reveal
+  font-weight: $mainFontWeight
+  text-shadow: $mainTextShadow
+  -webkit-font-smoothing: antialiased
