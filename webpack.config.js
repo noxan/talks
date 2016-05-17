@@ -28,5 +28,4 @@ module.exports = {
       template: 'src/index.jade',
     }),
   ],
-  devtool: 'source-map',
 };
