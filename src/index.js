@@ -8,3 +8,8 @@ Reveal.initialize({
   transition: 'fade',
   transitionSpeed: 'fast',
 });
+
+require.ensure([], function() {
+  require('script!reveal.js/plugin/highlight/highlight.js');
+  window.hljs.initHighlightingOnLoad();
+});

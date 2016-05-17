@@ -47,6 +47,10 @@ section.has-dark-background
 @import '~reveal.js/css/theme/template/theme.scss'
 // ---------------------------------------------
 
+// Code highlight ------------------------------
+@import '~reveal.js/lib/css/zenburn.css'
+// ---------------------------------------------
+
 
 .reveal
   font-weight: $mainFontWeight
@@ -54,9 +58,11 @@ section.has-dark-background
   -webkit-font-smoothing: antialiased
 
   pre
-    background-color: #eee
-    font-size: 100%
+    font-size: 85%
     padding: 20px
+
+  pre, code
+    background-color: #333
 
   // List style
   ul
