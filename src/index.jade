@@ -7,146 +7,16 @@ html(lang='en')
     .reveal
       .slides
         section
-          h1 TypeScript
-          h3 A superset of JavaScript with typing.
-          p: a(href='https://www.typescriptlang.org') www.typescriptlang.org
+          h1 Gitlab workflows
           br
           span Richard Stromer
           br
           a(href='http://www.noxan.net') www.noxan.net
+          br
+          br
+          p: small Special thanks to Matthias Lohscheidt
         section
-          section
-            h1 Agenda
-          section
-            ul
-              li What is TypeScript?
-              li Why should I use TypeScript?
-              li Typings and definition files
-              li Tooling
-              li Getting started
-              li Credits and links
-        section
-          section
-            h1 What is TypeScript?
-          section
-            h2 A language for large scale JavaScript development.
-          section
-            h2 TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-          section
-            img(src='assets/typescript-scopes.svg')
-          section
-            h2 Any browser. Any host. Any OS. Open source.
-            p: a(href='https://github.com/Microsoft/TypeScript') github.com/Microsoft/TypeScript
-        section
-          section
-            h1 Why should I use TypeScript?
-            p: small: a(href='https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals') Design goals of TypeScript
-          section
-            h2 Statically identify constructs that are likely to be errors.
-            p Like improved linting & errors before you run any code.
-          section
-            h2 Provide a structuring mechanism for larger pieces of code.
-            p Module system, interfaces, imports
-          section
-            h2 Align with current and future ECMAScript proposals.
-            p Classes, arrow functions, annotations...
-          section
-            h2 Preserve runtime behavior of all JavaScript code.
-            p And the output is human readable.
-          section
-            h2 Any JavaScript code is valid TypeScript.
-            p So just rename your file and get started.
-          section
-            h2 Tooling and developer support.
-            p Helps you to get your job done.
-          section
-            h2 And it keeps growing
-            img(src='assets/typescript-google-trends.png')
-            small: a(href='https://www.google.com/trends/explore#q=TypeScript%2C%20CoffeeScript%2C%20%2Fm%2F0h52xr1%2C%20ES6&date=1%2F2011%2065m&cmpt=q&tz=Etc%2FGMT-2') Google Trends
-        section
-          section
-            h1 Typings and definition files
-          section
-            h2 Definition file
-            pre: code.
-              /// < reference path="es6-shim.d.ts" / >
-
-              declare var MyPoint: {
-                x: number;
-                y: number;
-              };
-          section
-            h2 lib.d.ts
-            p Typings for JavaScript (~714KB).
-          section
-            h2 Typings
-            p The simple way to manage and install TypeScript definitions.
-            p: small: a(href='https://github.com/typings') github.com/typings
-          section
-            h2 Using typings
-            pre: code.js.
-              // Install Typings CLI utility.
-              $ npm install typings --global
-
-              // Search for definitions.
-              $ typings search react
-
-              // Install typings
-              $ typings install react
-            p: small: a(href='https://github.com/typings/typings#quick-start') Quick start
-        section
-          section
-            h1 Tooling
-          section
-            h2 Tooling support
-            ul
-              li Static type checking
-              li Symbol-based navigation
-              li Code completion
-              li Code refactoring
-          section
-            h2 Editor support
-            ul
-              li Visual Studio (Code)
-              li Sublime Text
-              li Vim
-              li Emacs
-              li WebStorm
-              li Atom
-              li Eclipse
-              li And many more...
-          section
-            h2 Tslint
-            p An extensible linter for the TypeScript language.
-            p: small: a(href='https://github.com/palantir/tslint') github.com/palantir/tslint
-        section
-          section
-            h1 Getting started
-          section
-            pre: code.js.
-              // Install
-              npm install -g typescript
-
-              // Compile
-              tsc helloworld.ts
-          section
-            h2 Tutorials
-            p: a(href='https://www.typescriptlang.org/docs/tutorial.html') www.typescriptlang.org/docs/tutorial.html
-            p: a(href='https://github.com/TypeStrong/learn-typescript') github.com/TypeStrong/learn-typescript
-        section
-          section
-            h1 Demo time?
-          section
-            a(href='https://www.typescriptlang.org/play/') www.typescriptlang.org/play
-        section
-          h1 Questions?
-        section
-          section
-            h1 Credits and links
-          section
-            ul
-              li: a(href='https://www.youtube.com/watch?v=b69vwMIphic') Anders Hejlsberg Tech Talk on Typescript
-              li: a(href='http://10consulting.com/presentations/2012-10-12-introduction-to-typescript.pdf') Binary Consulting - Introduction to TypeScript
-              li: a(href='http://developer.telerik.com/featured/the-rise-of-typescript/') Telerik Developer Network - The Rise of TypeScript?
-              li: a(href='http://kangax.github.io/compat-table/es6/#typescript') ECMAScript compatibility table
-              li: a(href='http://video.ch9.ms/ch9/4ae3/062c336d-9cf0-498f-ae9a-582b87954ae3/B881_mid.mp4') //build/ - See TypeScript in Action
+          h1 Picter
+          p A better way to manage photography submissions
+          br
+          a(href='https://www.picter.com') www.picter.com
